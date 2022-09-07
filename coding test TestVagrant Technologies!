@@ -1,0 +1,14 @@
+Q1 - 1. Calculate the total amount to be paid to the shop-keeper 
+
+def total_amountt():
+    product=['Leather wallet','Umbrella','Cigarette','Honey']
+    Unit_Price=[1100,900,200,100]
+    GST=[0.18,0.12,0.28,0]
+    Quantity=[1,2,3,4]
+    for i in (0, len(product)-1):
+        total_amount=(Unit_Price[i]*Quantity[i])+(Unit_Price[i]*Quantity[i])*GST[i]
+        print("total_amount",total_amount)
+totalToPay = total_amountt()
+
+2. Identify the product for which we paid maximum GST
+
